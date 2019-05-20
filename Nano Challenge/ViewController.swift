@@ -14,11 +14,10 @@ class ViewController: UIViewController {
    
     @IBOutlet weak var chevronImageViewShopView: UIImageView!
     @IBOutlet weak var shopImageViewShopView: UIImageView!
-    
-    @IBOutlet weak var timeProgressView: UIProgressView!
     @IBOutlet weak var shopView: UIView!
     @IBOutlet weak var shopImageView: UIImageView!
     @IBOutlet weak var totalMoneyView: UIView!
+    @IBOutlet weak var timeLabel: UILabel!
 
     @IBOutlet weak var highScoreNumberLabel: UILabel!
     @IBOutlet weak var draggableView: UIView!
@@ -42,7 +41,7 @@ class ViewController: UIViewController {
         replayButton.isEnabled = false
         replayButton.alpha = 0
 //        tempMoney = randomMoney()
-        
+        timeLabel.text = "\(timeLeft) seconds left"
         dollarSignLabel.text = "Rp. \(tempMoney)"
         totalMoneyLabel.text = "Rp. 0"
         innerView.backgroundColor = UIColor(red: 133/255, green: 187/255, blue: 101/255, alpha: 1)
