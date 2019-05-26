@@ -14,6 +14,8 @@
 		8A3FEF1622916578009766C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3FEF1422916578009766C8 /* LaunchScreen.storyboard */; };
 		8A3FEF212292B2CE009766C8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3FEF202292B2CE009766C8 /* AVFoundation.framework */; };
 		8A3FEF232292B4EB009766C8 /* cashSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A3FEF222292B4EB009766C8 /* cashSound.mp3 */; };
+		8A3FEF2522939122009766C8 /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A3FEF2422939121009766C8 /* success.mp3 */; };
+		8A3FEF2722939584009766C8 /* fail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A3FEF2622939584009766C8 /* fail.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		8A3FEF1722916578009766C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A3FEF202292B2CE009766C8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		8A3FEF222292B4EB009766C8 /* cashSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cashSound.mp3; path = ../../Downloads/cashSound.mp3; sourceTree = "<group>"; };
+		8A3FEF2422939121009766C8 /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = success.mp3; path = ../../Downloads/success.mp3; sourceTree = "<group>"; };
+		8A3FEF2622939584009766C8 /* fail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = fail.mp3; path = ../../Downloads/fail.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 		8A3FEF1F2292B2CE009766C8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8A3FEF2622939584009766C8 /* fail.mp3 */,
+				8A3FEF2422939121009766C8 /* success.mp3 */,
 				8A3FEF222292B4EB009766C8 /* cashSound.mp3 */,
 				8A3FEF202292B2CE009766C8 /* AVFoundation.framework */,
 			);
@@ -140,6 +146,8 @@
 				8A3FEF1622916578009766C8 /* LaunchScreen.storyboard in Resources */,
 				8A3FEF1322916578009766C8 /* Assets.xcassets in Resources */,
 				8A3FEF1122916576009766C8 /* Main.storyboard in Resources */,
+				8A3FEF2722939584009766C8 /* fail.mp3 in Resources */,
+				8A3FEF2522939122009766C8 /* success.mp3 in Resources */,
 				8A3FEF232292B4EB009766C8 /* cashSound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
